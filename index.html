@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Funky Fiber Works</title>
-    <link rel="stylesheet" href="style.css">
+      <title>Funky Fiber Works - Southwestern, Lodge, Ranch and Rustic-style Handmade Baskets and Crafts</title>
+      <link rel="StyleSheet" href="style.css" type="text/css" media="screen">
+<!--      <link rel="StyleSheet" href="printstyle.css" type="text/css" media="print"> -->
+      <script type="text/javascript" src="scripts.js"></script>
+<META NAME="description" CONTENT="An online catalog of our products.">
+    <META NAME="Keywords" CONTENT="">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body>
   <header>
@@ -13,60 +18,56 @@
   </header>
 
   <section class="gallery">
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item1" />
-      <h3>Item</h3>
-      <p>description or item#</p>
+    <div class="gallery-item" onclick="openPopup('items/BD226.jpg')">
+      <img src="items/BD226.jpg" alt="photo of the Beaded Dream Web" />
+      <h3>BD226</h3>
+      <p>Beaded Dream Web<!-- - 12-inch--></p>
     </div>
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item 2" />
-      <h3>Item</h3>
-      <p>description or item#</p>
+    <div class="gallery-item" onclick="openPopup('items/BD284.jpg')">
+      <img src="items/BD284.jpg" alt="photo of the Bear Dream Web" />
+      <h3>BD284</h3>
+      <p>Bear Dream Web<!-- - 6-inch--></p>
     </div>
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item 2" />
-      <h3>Item</h3>
-      <p>description or item#</p>
+    <div class="gallery-item" onclick="openPopup('items/EF126L.jpg')">
+      <img src="items/EF126L.jpg" alt="photo of the Eagle Feather Mandala" />
+      <h3>EF126L</h3>
+      <p>Eagle Feather Mandala<!-- - 22-inch--></p>
     </div>
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item 2" />
-      <h3>Item</h3>
-      <p>description or item#</p>
+    <div class="gallery-item" onclick="openPopup('items/HS135D.jpg')">
+      <img src="items/HS135D.jpg" alt="photo of the Horseshoe Fetish with Dreamcatcher" />
+      <h3>HS135D</h3>
+      <p>Horseshoe Fetish with Dreamcatcher</p>
     </div>
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item 2" />
-      <h3>Item</h3>
-      <p>description or item#</p>
+    <div class="gallery-item" onclick="openPopup('items/M294F.jpg')">
+      <img src="items/M294F.jpg" alt="photo of the Feather Star Mandala" />
+      <h3>M294F</h3>
+      <p>Feather Star Mandala</p>
     </div>
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item 2" />
-      <h3>Item</h3>
-      <p>description or item#</p>
+    <div class="gallery-item" onclick="openPopup('items/P334.jpg')">
+      <img src="items/P334.jpg" alt="photo of the Peacock Dream" />
+      <h3>P334</h3>
+      <p>Peacock Dream</p>
     </div>
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item 2" />
-      <h3>Item</h3>
-      <p>description or item#</p>
-    </div>
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item 2" />
-      <h3>Item</h3>
-      <p>description or item#</p>
-    </div>
-    <div class="gallery-item">
-      <img src="pix/kokopelli.png" alt="item 2" />
-      <h3>Item</h3>
-      <p>description or item#</p>
+    <div class="gallery-item" onclick="openPopup('items/SF227.jpg')">
+      <img src="items/SF227.jpg" alt="photo of Spirit Feathers" />
+      <h3>SF227</h3>
+      <p>Spirit Feathers</p>
     </div>
     <!-- Add more gallery items as needed -->
   </section>
 
+  <div id="popup" class="popup-overlay" onclick="closePopup()">
+  <img id="popupImg" class="popup-image" src="" alt="Popup Image">
+  </div>
+
+<!--
   <section class="about">
     <h2>About</h2>
     <p>
       short bio or company info.
     </p>
   </section>
+-->
 
   <section class="contact">
     <h2>Contact</h2>
@@ -76,6 +77,9 @@
 
   <footer>
     &copy; <script>document.write(new Date().getFullYear())</script> Janet Gentry &cir; Phoenix, AZ. <!--All rights reserved.-->
+    <br>
+    <i>This product is not Indian-made or an Indian product under 25 U.S.C. sec. 305, et seq.</i>
   </footer>
+  
 </body>
 </html>

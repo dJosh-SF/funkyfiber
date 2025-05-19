@@ -5,11 +5,10 @@
       font-family: Arial, sans-serif;
     }
     body {
-    /*  background: #f5f5f5;*/
-      background: #fff;
+      background: #f5f5f5;*/
     /*  background-color: #f7f7f7;*/
     /*  background-image: url("pix/patterns/45-degree-fabric-light.png");*/
-      background-image: url("pix/patterns/absurdity.png");
+    /*  background-image: url("pix/patterns/absurdity.png");*/
       color: #333;
       line-height: 1.6;
     }
@@ -20,7 +19,7 @@
       border:1px solid #f5f5f5; border-radius:3px; padding:1px 3px;
     }
     a:hover {
-      color:#00f;
+      color:#66f;
       border:1px solid #777; border-radius:3px; padding:1px 3px;
     }
 
@@ -57,14 +56,38 @@
       max-height:200px;
       border-radius: 5px;
     }
+
+    .popup-overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    .popup-image {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
     .about, .contact {
       max-width: 800px;
       margin: 2rem auto;
       padding: 1rem;
     }
+
     footer {
       text-align: center;
       padding: 2rem;
-      color: #aaa;
+      color: #888;
       font-size: 0.9rem;
+    }
+
+    footer i {
+      color: #aaa;
     }
